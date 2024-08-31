@@ -1,0 +1,26 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class SceneLoader : MonoBehaviour
+{
+    public void Shapes_Scene()
+    {
+        SceneManager.LoadScene("Shapes_Scene");
+    }
+    public void Fruits_Scene()
+    {
+        SceneManager.LoadScene("Fruits_Scene");
+    }
+    public void Device_Selection_Scene()
+    {
+        SceneManager.LoadScene("Device_Selection");
+    }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+    public void quit()
+    {
+        Application.Quit();
+    }
+}
